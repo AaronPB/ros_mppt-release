@@ -1,0 +1,12 @@
+Source: ros-kinetic-ros-mppt
+Section: misc
+Priority: extra
+Maintainer: aaronpb <aaronpb@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: http://wiki.ros.org/ros_mppt
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ros-mppt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: MPPT message sender package
